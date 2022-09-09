@@ -1,0 +1,44 @@
+.flex-row
+{
+    display: flex;
+}
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+}
+.centeralign
+{
+    justify-content: center;
+    align-items: center;
+}
+.Header-fontfamily
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #2b2b2b;
+}
+
+
+.ShakeText:hover{
+
+    animation:  shake 0.5s  ;
+    cursor: context-menu;
+  }
+  
+  @keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(5px);
+    }
+      
+    /* 50%{
+      transform: translateX(-5px);
+    } */
+    100%{
+      transform: translateX(0px);
+    }
+  }

@@ -1,0 +1,25 @@
+.Loginmain_div{
+
+    background: linear-gradient(0deg, rgba(0,0,0,.6), rgba(0,0,0,.6)), url("91.jpg");
+    height: 100vh; 
+    overflow: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Loginmain_div ::-webkit-input-placeholder {
+    color:grey;
+}
+
+.Loginmain_div ::-moz-placeholder {
+    color:grey;
+}
+
+.Loginmain_div ::-ms-placeholder {
+    color:grey;
+}
+
+.Loginmain_div ::placeholder {
+    color:grey;
+}

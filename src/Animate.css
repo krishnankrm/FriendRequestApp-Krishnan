@@ -1,0 +1,110 @@
+ .r1eds {
+
+    cursor: cursor;
+    /* animation: shake22 1.5s ; */
+    animation-fill-mode: forwards;
+
+  } 
+  @keyframes shake22 {
+    0%   {transform: translateX(0px);}
+    100% {transform: translateX(75px);}
+  }
+
+  .animatetextLEgand
+  {
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left:5px;
+    color: #574139;
+    transform: translateY(5px);
+  }
+
+ .animatetextLEgand {
+    cursor: cursor;
+    /* animation: shake222 1.5s ; */
+    animation-fill-mode: forwards;
+  }
+  @keyframes shake222 {
+    0%   {transform: translate(0px,5px);}
+    100% {transform: translate(-35px,5px);}
+
+  }
+ .Loginmain_div .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .Loginmain_div .btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .user-login3223
+  {
+    border:0px;
+    border-bottom:2px Solid grey; 
+    background:transparent; 
+    color:rgb(112, 15, 15); 
+    border-radius: 0px;
+  }
+  
+  .user-logininput{
+    border:0;
+  }
+
+  .user-login3223:focus-within {
+    border-bottom:2px Solid rgb(112, 15, 15); ; 
+  }
+  .user-login:focus {
+    color:rgb(112, 15, 15); ; 
+  }
+  .password-login:focus {
+    color:rgb(112, 15, 15); ; 
+  }
+  .password-login
+  {
+    border:0px;
+    border-bottom:2px Solid grey; 
+    background:transparent; 
+    border-radius: 0px;
+    color:rgb(112, 15, 15);
+  }
+  .password-login:focus-within{
+    border-bottom:2px Solid rgb(112, 15, 15); 
+  }
+  .confirm-password-login:focus {
+    color:rgb(112, 15, 15); ; 
+  }
+  .confirm-password-login
+  {
+    border:0px;
+    border-bottom:2px Solid grey; 
+    background:transparent; 
+    border-radius: 0px;
+    color:rgb(112, 15, 15);
+  }
+  .confirm-password-login:focus-within{
+    border-bottom:2px Solid rgb(112, 15, 15); 
+  }
+  .disable-outside-clicks {
+  position: fixed;
+  top: 140px;
+  bottom: 0;
+  right:150px;
+  z-index: 800;
+}
+
+.enabled-clicks {
+  width: 200px;
+  margin: 0 auto;
+}
+
+@keyframes Animate1234 {
+  0%   {transform: translateY(10px);}
+  100% {transform: translateY(0px);}
+}
+
+
+@keyframes Animate666 {
+  0%   {transform: translateY(10px);}
+  100% {transform: translateY(0px);}
+}
